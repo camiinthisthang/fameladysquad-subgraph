@@ -47,7 +47,7 @@ export function handleTransfer(event: TransferEvent): void {
               value = traitValue.toString();
               log.info("actual value of trait: {}", [value]);
 
-              if (trait === "hair") {
+              if (trait === "Hair") {
                 let hairMessage = "trait equals hair";
                 log.info("inside trait equals hair: {}", [hairMessage]);
                 lady.hairStyle = value;
@@ -55,21 +55,21 @@ export function handleTransfer(event: TransferEvent): void {
                 log.info("after save: {}", [hairConfirm]);
               }
 
-              if (trait === "skin") {
+              if (trait === "Skin") {
                 let skinMessage = "trait equals skin";
                 log.info("inside trait equals skin: {}", [skinMessage]);
                 lady.skinColor = value;
                 let skinConfirm = "skin was saved to lady";
                 log.info("after save: {}", [skinConfirm]);
               }
-              if (trait === "eyes") {
+              if (trait === "Eyes") {
                 let eyesMessage = "trait equals eyes";
                 log.info("inside trait equals eyes: {}", [eyesMessage]);
                 lady.eyeColor = value;
                 let eyesConfirm = "eyes were saved to lady";
                 log.info("after save: {}", [eyesConfirm]);
               }
-              if (trait === "face expression") {
+              if (trait === "Face Expression") {
                 let faceMessage = "trait equals face expression";
                 log.info("inside trait equals face expression: {}", [
                   faceMessage,
