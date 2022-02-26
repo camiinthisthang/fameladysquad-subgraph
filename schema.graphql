@@ -2,16 +2,15 @@ type Lady @entity {
   id: ID!
   tokenID: BigInt!
   tokenURI: String! 
+  owner: User
   name: String 
   faceExpression: String
   hairStyle: String
-  owner: User
   skinColor: String
   eyeColor: String
-  test: String
 }
 
 type User @entity {
-  id: ID! # the ID of the NFT, not the user 
+  id: ID! # wallet address 
   Ladies: [Lady!] @derivedFrom(field: "owner")
 }
