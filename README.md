@@ -1,5 +1,11 @@
 # fameladysquad-subgraph
 
+## Using the Subgraph
+
+You can query this subgraph in an online playground [here.](https://thegraph.com/hosted-service/subgraph/camiinthisthang/fameladysquad?version=pending)
+
+<img width="800" alt="Screen Shot 2022-02-26 at 1 04 17 AM" src="https://user-images.githubusercontent.com/15346823/155837246-86955592-68a3-4b58-9486-bc5934fd1189.png">
+
 ## Resources
 
 ### Step by Step Blog Post
