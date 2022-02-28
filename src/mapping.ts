@@ -1,6 +1,5 @@
 import {
-  Transfer as TransferEvent,
-  Token as TokenContract,
+  Transfer as TransferEvent
 } from "../generated/Token/Token";
 import { Lady, User } from "../generated/schema";
 import { log, ipfs, json, JSONValue } from "@graphprotocol/graph-ts";
@@ -14,7 +13,7 @@ export function handleTransfer(event: TransferEvent): void {
     lady = new Lady(event.params.tokenId.toString());
     lady.tokenID = event.params.tokenId;
     lady.tokenURI = "/" + event.params.tokenId.toString();
-    
+
     let metadata = ipfs.cat(ipfsHash + lady.tokenURI);
     if (metadata) {
       const value = json.fromBytes(metadata).toObject();
