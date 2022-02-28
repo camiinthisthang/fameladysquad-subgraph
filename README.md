@@ -8,8 +8,8 @@ You can query this subgraph in an online playground [here.](https://thegraph.com
 
 ## Resources
 
-### Step by Step Blog Post
-Check out Getting Started With The Graph blog post to walk you through building a subgraph.
+### Step by Step Workshop
+Check out ["Getting Started With The Graph" workshop to walk you through building a subgraph.](https://github.com/camiinthisthang/subgraph-workshop)
 
 ## How To:
 To find the URI of a token and see where their metadata is hosted:
